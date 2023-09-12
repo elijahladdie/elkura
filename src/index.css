@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  background: radial-gradient(circle at 90% 50%, #0f0f0f, #333 50%, #030303 75%, #333 75%);
+
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+}
+
+.content {
+  width: 90%;
+  box-shadow: 1px 1px 3px white;
+  margin: 0 30px;
+  padding: 2px 4px;
+  overflow: hidden;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+}
+
+.welcome .intro h1 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  z-index: 90;
+}
+
+.welcome .intro h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: capitalize;
+
+}
+
+.welcome .intro b {
+  font-size: 15px;
+}
+
+.welcome .intro {
+  background: white;
+  height: 100%;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+
+}
+
+.welcome .intro span p {
+  width: 80%;
+}
+
+.welcome .center-part {
+  height: 100%;
+  position: relative;
+}
+
+.welcome .center-part img {
+  position: absolute;
+  top: 25%;
+  z-index: 0;
+  left: -150px;
+  background: linear-gradient(to right, transparent 50%, white 50%);
+}
+
+.welcome .right-part {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(to right, #1e1e25, #024b502a), url('./assets/img/code_keyboard.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 0px 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-link {
+  position: relative;
+  width: 11%;
+  font-weight: 700;
+  text-decoration: none;
+  color: #166c7b;
+  padding: 10px 20px;
+  border: 1px solid #166c7b;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.svg_div {
+  background: url(./assets/img/Image.jpg)bottom;
+  background-size: cover;
+  height: 30%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.img_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 5px 0px;
+  height: 50vh;
+  border-top: 10px solid brown;
+  border-right: 0px solid transparent;
+  border-bottom: 50px solid rgb(138, 17, 17);
+}
+
+.icons section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.icons span {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.877), whitesmoke);
+  font-weight: 600;
+  border-right-style: groove;
+  border-right: 2px solid whitesmoke;
+  margin: 5px 0;
+}
+
+.icons span svg {
+  font-size: 1.5rem;
+  padding: 0px 5px;
+  margin: 0px 5px;
+  width: 30px;
+  border-right-style: groove;
+  border-right: 1px solid #166c7b;
+}
+
+.icons a svg {
+  height: 40px;
+  width: 40px;
+  padding: 0px 10px;
+}
+
+
+
+.icons span p {
+  padding: 5px 1px;
+
+
+}
+
+.content.experience section {
+  overflow-y: scroll;
+}
+
+.content.experience {
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  padding: 0px 10px;
+}
+
+.content.experience samp a {
+  color: #166c7b;
+  text-decoration: none;
+}
+
+.content.experience samp a:hover {
+  color: #d36d62c4;
+}
+
+.content.experience samp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  border-bottom-style: groove;
+  padding: 10px 40px;
+}
+
+.exper_card .description {
+  display: block;
+  color: #166c7b;
+  padding: 6px 12px;
+}
+
+.exper_card .title {
+  background: #114650bd;
+  display: block;
+  color: #f5f5f5;
+  padding: 6px 12px;
+}
+
+.exper_card {
+  border-left: 10px solid #2e2e22;
+  border-right: 10px solid #2e2e22;
+  border-left-style: groove;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #2e2e22;
+  margin: 10px 10px;
+
+}
+
+.img_div img {
+  position: absolute;
+  background: #166c7b;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  top: -5em;
+  overflow: hidden;
+  border-top: 0px solid #166c7b;
+  border-right: 0px solid transparent;
+  border-bottom: 5px solid #33e0ff;
+  left: 12px;
+
+}
+
+.img_div div h2 {
+  padding: 0;
+  text-align: right;
+}
+
+.profile {
+  width: 60%;
+  background: #f5f5f5;
+  overflow: scroll;
+}
+
+.info {
+  display: flex;
+
+}
+
+.context {
+  color: whitesmoke;
+  padding: 5px 30px;
+  width: 65%;
+  overflow-y: scroll;
+}
+
+.context h1:nth-child(1) {
+  padding: 5px 10px;
+  overflow: hidden;
+  border-bottom-style: groove;
+}
+
+.context p {
+  padding: 5px 5px;
+}
+
+.context ul {
+  padding: 0px 10px;
+  list-style: disc;
+}
+
+.btn-link:hover {
+  box-shadow: inset 100px 0 0px #166c7b;
+  color: white;
+}
+
+.rounded {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.nav {
+  background: #f5f5f5;
+  box-shadow: 0px 0px 10px #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 10px;
+  border-radius: 5px;
+  height: 250px;
+  width: 8%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 25%;
+  z-index: 1000;
+}
+
+.nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid #bebebe4d;
+  padding: 9px 0;
+  font-weight: 600;
+  color: #166c7b;
+}
+
+.nav a:hover {
+  color: #163f7b;
+}
+
+.nav a svg {
+  font-size: 2em;
+}
+
+.nav a span {
+  font-size: .8em;
+  padding: 3px 0;
+}
+
+.lost {
+  position: relative;
+}
+
+.lost img {
+  width: 100%;
+  height: 100%;
+  margin: 0px 30px;
+}
+
+.lost:before {
+  content: 'Page not found';
+  margin: 0px 30px;
+  color: #f5f5f5;
+  font-weight: 900;
+  font-size: 5rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #3030309a;
+
+
+}
+
+@media (max-width: 900px) {
+  body {
+    flex-wrap: wrap;
+  }
+
+  .content {
+    /* flex-wrap: wrap; */
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .info{
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .container {
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+
+  .welcome .intro {
+    padding: 0px 20px;
+  }
+
+  .welcome .center-part {
+    position: relative;
+
+    left: 0;
+    top: 0;
+  }
+
+  .welcome .right-part {
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .welcome {
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+
+}

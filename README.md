@@ -1,0 +1,1 @@
+# Elkura this repository is for my personal portofolio website
