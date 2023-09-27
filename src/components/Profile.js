@@ -61,7 +61,7 @@ const Profile = () => {
             <li>Html and css</li>
            <li> Data structures and algorithms.</li>
             <li>Database: SQl and NoSQL</li>
-            <li>Bootstrap and taioliwindcss</li>
+            <li>Bootstrap and tailwindcss</li>
             <li>Object-oriented programming (OOP) languages.</li>
             <li>Web development.</li>
             <li>Experience in working with version control (git).</li>
@@ -73,7 +73,7 @@ const Profile = () => {
             <li>Communication</li>
             <li>Time Management</li>
             <li>Problem solving</li>
-            <li>Adptability</li>
+            <li>Adaptability</li>
             <li>Creativity</li>
            <li> Teamwork</li>
           </ul>
