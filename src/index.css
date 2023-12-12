@@ -22,13 +22,16 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+
   
 }
 .container iframe {
-  width: 50%;
+  width: 80%;
   height: 100%;
   border: none;
   outline: none;
+  background-color: white;
+
  
 }
 .block{
@@ -40,11 +43,14 @@ body {
 .content {
   width: 80vw;
   height: 80vh;
-  box-shadow: 1px 1px 3px white;
+  box-shadow: 2px 2px 1px #aaaaaa;
   margin: 0 30px;
-  padding: 2px 4px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
 }
 .content:after {
   height: 100vh;
@@ -140,16 +146,13 @@ display: inline-block;
 
 .btn-link {
   position: relative;
-  width: 14%;
+  width: 20%;
   font-weight: 700;
   text-decoration: none;
   color: #166c7b;
   padding: 10px 20px;
   border: 1px solid #166c7b;
   transition: 1s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
 }
 
