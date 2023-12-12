@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../assets/img/unnamed.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 const Profile = () => {
   return (
     <div className=' info '>
