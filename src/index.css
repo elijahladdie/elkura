@@ -327,7 +327,6 @@ display: inline-block;
 .btn-link:hover {
   box-shadow: inset 250px 0 0px #166c7b;
   color: white;
-  border-radius: 0 50% 50%  0%;
 }
 
 .rounded {
