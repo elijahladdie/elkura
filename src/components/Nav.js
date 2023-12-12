@@ -2,29 +2,35 @@ import React from 'react'
 import { faAddressBook, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
+
 const Nav = () => {
-    return (
-        <div className='nav'>
+  return (
+    <div className='nav'>
 
-            <a href='/home'>
-                <FontAwesomeIcon icon={faHome} />
-                <span>Home</span>
-            </a>
-            <a href='/resume'>
-                <FontAwesomeIcon icon={faLaptopCode} />
-                <span>Resume</span>
-            </a>
-            <a href='/profile'>
-                <FontAwesomeIcon icon={faAddressBook} />
-                <span>Profile</span>
-            </a>
+      <Link to='/home'>
 
+        <FontAwesomeIcon icon={faHome} />
+        <span>Home</span>
+      </Link>
 
+      <Link to='/resume'>
 
+        <FontAwesomeIcon icon={faLaptopCode} />
+        <span>Resume</span>
+      </Link>
+      <Link to='/profile'>
 
-
-        </div>
-    )
+        <FontAwesomeIcon icon={faAddressBook} />
+        <span>Profile</span>
+      </Link>
+    </div>
+  )
 }
 
 export default Nav
+
+
+
+
+
